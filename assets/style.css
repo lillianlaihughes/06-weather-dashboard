@@ -2,3 +2,38 @@
     margin: 100px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+
+main {
+    display: flex;
+    }
+    
+.searchContainer {
+        display: flex;
+        flex-direction: column;
+        padding:1%;
+    }
+    
+h1 {
+        background-color: olive;
+        color: white;
+    }
+    
+.searchbtn {
+        background-color: fuchsia;
+        color: white;
+        margin: 5%
+    }
+    
+.weatherInfo {
+    border: 2px solid darkblue;
+    color: darkblue;
+    }
+    
+.hidden {
+    display: none;
+    }
+    
+.forecast {
+    display: flex;
+    }
+    
